@@ -1,8 +1,16 @@
 <?php
 /*
-Plugin Name: Picture Frame CPT
-Description: Plugin para adição de CPT de quadros
-*/
+ * Plugin Name:       Picture Frame CPT
+ * Plugin URI:        https://github.com/lucassdantas/wp_picture_frame
+ * Description:       Adiciona CPT de quadros
+ * Version:           1.0
+ * Requires at least: 5.2
+ * Requires PHP:      7.2
+ * Author:            Lucas Dantas
+ * Author URI:        linkedin.com/in/lucas-de-sousa-dantas/
+ * License:           GPL v2 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ */
 
 function picture_frame() {
     $labels = array(
